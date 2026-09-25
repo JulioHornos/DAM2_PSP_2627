@@ -15,15 +15,16 @@ public class EjecutarAplicacionProcessBuilder
 				
 		File directorio = new File("c:/Julio/"); 
 		pb.directory(directorio);*/
+		String miVariable = "hola";
 		
-		ProcessBuilder pb = new ProcessBuilder("gedit", "notas2.txt");
+		ProcessBuilder pb = new ProcessBuilder("gedit");
 
         File directorio = new File("/home/julio/");
         pb.directory(directorio);
 
         Process p = pb.start();
 
-        retorno = p.waitFor();
+        //retorno = p.waitFor();
 
         System.out.println("Llegamos aquí cuando la ejecución del proceso finaliza");
         System.out.println("La ejecución devuelve: " + retorno);

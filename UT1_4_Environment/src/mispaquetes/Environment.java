@@ -26,7 +26,7 @@ public class Environment {
         System.out.println("Arquitectura: "
                 + System.getProperty("os.arch"));
 
-       pb.start();
+       //pb.start();
 	}
 	
 

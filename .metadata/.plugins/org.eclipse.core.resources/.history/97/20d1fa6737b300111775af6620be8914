@@ -1,0 +1,30 @@
+
+package paquete;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class EjecutarAplicacionProcessBuilder 
+{
+	static int retorno =-2;//En caso de que se haya ejecutado correctamente devolverá 0
+	public static void main(String[] args) throws IOException, InterruptedException 
+	{
+		// TODO Auto-generated method stub
+		/* Windows
+		 * ProcessBuilder pb = new ProcessBuilder("C:/windows/notepad.exe","notas1.txt");
+				
+		File directorio = new File("c:/Julio/"); 
+		pb.directory(directorio);*/
+		
+		   System.out.println("¿A qué web quieres navegar:");
+
+	        Scanner sc = new Scanner(System.in);
+	        String respuesta = sc.nextLine();
+
+	        ProcessBuilder pb = new ProcessBuilder("google-chrome", respuesta);
+	        pb.start();
+
+	        sc.close();
+	}
+}

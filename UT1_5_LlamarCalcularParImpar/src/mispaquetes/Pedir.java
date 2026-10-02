@@ -58,7 +58,7 @@ public class Pedir {
 		bw.flush();
 
 		// COMPROBACION DE ERROR - 0 bien - 1 mal	
-		int exitVal = -1;
+		int exitVal = -99;
 		try {
 			exitVal = p.waitFor();
 			System.out.println("Valor de Salida: " + exitVal);

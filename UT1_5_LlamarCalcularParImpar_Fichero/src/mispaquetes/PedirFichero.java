@@ -19,9 +19,9 @@ public class PedirFichero {
 	    //se establece el directorio donde se encuentra el ejecutable
 	    pb.directory(directorio);
 	    
-	    File fBat = new File("/home/julio/Docencia/workspaces/PSP_CURSO/UT1","entrada");
-	    File fOut = new File("/home/julio/Docencia/workspaces/PSP_CURSO/UT1","salida");
-	    File fErr = new File("/home/julio/Docencia/workspaces/PSP_CURSO/UT1","error");
+	    File fBat = new File("/home/julio/pruebas","entrada_datos");
+	    File fOut = new File("/home/julio/pruebas","salida");
+	    File fErr = new File("/home/julio/pruebas","error");
 	 
 	    pb.redirectInput(fBat);
 	    pb.redirectOutput(fOut);

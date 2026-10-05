@@ -8,7 +8,7 @@ import java.util.Random;
 
 public class ChildProcessEjemplo3 {
     private static final String FICHERO = "Ejemplo3";
-	private static final String RUTA_FICHERO = "../";
+    private static final String RUTA_FICHERO = "/home/julio/pruebas";
 	private static final Random RANDOM = new Random();
 
 

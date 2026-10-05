@@ -13,7 +13,7 @@ public class ChildProcessEjemplo1 {
     
 	private static final String NOMBRE_FICHERO = "Ejemplo1";
 	//private static final String RUTA_FICHERO = "/home/julio/Docencia/workspaces/PSP_CURSO/UT1/UT1_6_SincronizacionCompetitivos/";
-	private static final String RUTA_FICHERO = "../";
+	private static final String RUTA_FICHERO = "/home/julio/pruebas";
 	private static final Random RANDOM = new Random();    
 
     public static void main(String[] args) {

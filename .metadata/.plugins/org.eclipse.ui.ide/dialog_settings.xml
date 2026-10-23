@@ -6,6 +6,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/julio/eclipse-workspace/WS_PSP_2627/UT2_0_RatonSinHilos"/>
+			<item value="/home/julio/eclipse-workspace/WS_PSP_2627/UT2_0_Ratones_Thread"/>
+			<item value="/home/julio/eclipse-workspace/WS_PSP_2627/UT2_0_Ratones"/>
 			<item value="/home/julio/eclipse-workspace/WS_PSP_2627/UT1_6_SincronizacionCompetitivos/SincronizacionCompetitivosPadres"/>
 			<item value="/home/julio/eclipse-workspace/WS_PSP_2627/UT1_6_SincronizacionCompetitivos/SincronizacionCompetitivosHIjos"/>
 			<item value="/home/julio/eclipse-workspace/WS_PSP_2627/UT1_6_SincronizacionCompetitivos"/>

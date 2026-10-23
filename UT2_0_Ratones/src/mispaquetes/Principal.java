@@ -14,10 +14,12 @@ public class Principal {
 
 		Thread p = new Thread(pinky);
 		p.start();
-		/*
-		 * try { p.join(); } catch (InterruptedException e) { // TODO
-		 * Auto-generated catch block e.printStackTrace(); }
-		 */
+		
+		 try { 
+			 p.join(); 
+		 }catch (InterruptedException e) { 
+		 }
+		 
 		new Thread(mickey).start();
 		new Thread(jerry).start();
 		System.out.println("FINAL DE PROGRAMA");	

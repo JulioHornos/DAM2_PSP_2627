@@ -7,10 +7,10 @@ import java.util.concurrent.Semaphore;
 public class Principal {
 
 	public static void main (String args[]) {
-		Semaphore miSemaforo = new Semaphore(2);
+		Semaphore miSemaforo = new Semaphore(3);
 		Cola micola = new Cola(miSemaforo);
 		
-		ExecutorService miExecutor = Executors.newFixedThreadPool(10);
+		ExecutorService miExecutor = Executors.newFixedThreadPool(5);
 		
 		for(int i=0; i<10; i++ ) {			
 			miExecutor.submit(new Hilo(micola));			
